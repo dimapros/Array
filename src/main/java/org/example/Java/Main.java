@@ -1,10 +1,10 @@
-package org.example;
+package org.example.Java;
 
 import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = new int[] {-1, 0, 7, 7, 3, 1, 3, 4, 5, 1, 5, 4};
+        int[] array = new int[]{-1, -1, 0, 7, 7, 3, 1, 3, 4, 5, 1, 5, 4};
 
         System.out.println(countElements(array));
     }
